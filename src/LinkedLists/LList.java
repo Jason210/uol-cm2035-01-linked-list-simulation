@@ -125,8 +125,6 @@ public class LList
                 temp = memory.node[temp.next]; // move on
             }
         }
-        
-        
     }
     
     void displayList()
