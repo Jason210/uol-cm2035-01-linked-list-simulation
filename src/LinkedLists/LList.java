@@ -27,11 +27,11 @@ public class LList
         }       
     }
    
-    void insertAtHead(int x)
+    void insertAtHead(int value)
     {
-        System.out.println("Calling insertAtHead using value: " + x);
+        System.out.println("Calling insertAtHead using value: " + value);
         
-        Node newNode = new Node(x); // create new object carrying value x        
+        Node newNode = new Node(value); // create new object carrying value x        
                 
         if (memory.node[head] != null)
         {        
