@@ -18,17 +18,7 @@ public class Vmemory
         System.out.println("New memory block allocated beginning at " + start + " with size " + this.size);
         System.out.println("");
     }
-    
-    int peek(String address)
-    {
-        return 0;
-    }   
-    
-    void poke(String address, int value)
-    {
-        
-    }
-    
+      
     int convert(String hex)
     {
         int index = hex.indexOf("x"); 
