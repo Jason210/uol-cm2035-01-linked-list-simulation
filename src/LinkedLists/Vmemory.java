@@ -18,7 +18,8 @@ public class Vmemory
         System.out.println("New memory block allocated beginning at " + start + " with size " + this.size);
         System.out.println("");
     }
-      
+    
+    // not yet in use
     int convert(String hex)
     {
         int index = hex.indexOf("x"); 
